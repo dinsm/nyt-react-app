@@ -1,0 +1,19 @@
+{
+  "name": "nyt-react-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinsm/nyt-react-app.git"
+  },
+  "author": "Denise L Mayele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinsm/nyt-react-app/issues"
+  },
+  "homepage": "https://github.com/dinsm/nyt-react-app#readme"
+}
