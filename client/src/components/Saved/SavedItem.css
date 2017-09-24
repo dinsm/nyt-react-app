@@ -1,0 +1,23 @@
+.notes{
+  text-align: center;
+}
+
+.savedThing{
+  background-color: floralwhite;
+  color:pink;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.links{
+  color:white;
+}
+.links:hover{
+  color:#4472CA;
+  text-decoration: none;
+}
+
+#savedTitle{
+  color:black;
+}

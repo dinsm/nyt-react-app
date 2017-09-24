@@ -1,0 +1,24 @@
+.search {
+  text-align: center;
+  background-color: floralwhite;
+  color:black;
+  padding-top: 40px;
+    width: 100%;
+}
+
+.search_button{
+  text-align: center;
+  margin: 10px;
+}
+
+.results{
+  width:100%;
+  height:400px;
+  overflow-y: scroll;
+  background-color: floralwhite;
+}
+
+#resultText{
+  color:black;
+  /*background-color: floralwhite;*/
+}

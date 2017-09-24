@@ -1,16 +1,33 @@
-import React, { Component } from "react";
-import Page from "./components/Page/Page";
-import "./App.css";
+import React, { Component } from 'react';
+import {BrowserRouter as Router,Route} from 'react-router-dom';
+import './App.css';
+import Header from './components/Header/Header';
+import Search from './components/Search/Search';
+import Saved from './components/Saved/Saved';
 
+class App extends Component {
+  constructor() {
+    super();
+    // Setting initial state to store the input values
+    this.state = {
+      fromChild:''
+    };
+    // Binding the event listeners which we will pass as props
+  }
 
-        class App extends Component {
-          render() {
-                   return (
-                          <div className="App">
-                                <Page />
-                              </div>
-                        );
-                  }
-        }
+  render() {
+    return (
+      <Router>
+      <div className='container'>
+        <Header/>
+        <hr/>
+        <Route exact path = "/" component={Search}/>
+        <hr/>
+        <Route exact path = "/saved" component={Saved}/>
+      </div>
+      </Router>
+    );
+  }
+}
 
 export default App;
