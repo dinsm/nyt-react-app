@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da5df24e-0ed0-4a63-a641-2bb15c3772fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/Article.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/Header/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/Page/Container.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/Page/ContainerPage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/Page/Page.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/Page/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/Result/Result.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/Result/ResultContainer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/Result/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/ResultSearch/ResultOfSearch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/ResultSearch/ResultOfSearchContainer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/ResultSearch/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/Saved/SavedContainer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/SavedArticle/SavedArticle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/SavedArticle/SavedArticleContainer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/SavedArticle/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/Search/SearchContainer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/saved/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/search/index.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/public/favicon.ico" afterPath="$PROJECT_DIR$/client/public/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/.gitignore" afterPath="$PROJECT_DIR$/client/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/README.md" afterPath="$PROJECT_DIR$/client/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/package.json" afterPath="$PROJECT_DIR$/client/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/public/index.html" afterPath="$PROJECT_DIR$/client/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/public/manifest.json" afterPath="$PROJECT_DIR$/client/public/manifest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/App.css" afterPath="$PROJECT_DIR$/client/src/App.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/App.js" afterPath="$PROJECT_DIR$/client/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/App.test.js" afterPath="$PROJECT_DIR$/client/src/App.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Header/header.js" afterPath="$PROJECT_DIR$/client/src/components/Header/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Saved/Saved.js" afterPath="$PROJECT_DIR$/client/src/components/Saved/Saved.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Search/Search.js" afterPath="$PROJECT_DIR$/client/src/components/Search/Search.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/index.css" afterPath="$PROJECT_DIR$/client/src/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/index.js" afterPath="$PROJECT_DIR$/client/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/logo.svg" afterPath="$PROJECT_DIR$/client/src/logo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/client/src/registerServiceWorker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/utils/api.js" afterPath="$PROJECT_DIR$/client/src/utils/api.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/yarn.lock" afterPath="$PROJECT_DIR$/client/yarn.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="255">
+              <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -438,16 +399,15 @@
       <workItem from="1505976070663" duration="907000" />
       <workItem from="1506036516460" duration="25350000" />
       <workItem from="1506227268296" duration="1022000" />
-      <workItem from="1506228540409" duration="5295000" />
+      <workItem from="1506228540409" duration="5708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44777000" />
+    <option name="totallyTimeSpent" value="45190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -455,7 +415,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744282" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33290488" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5437018" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28397712" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -864,8 +824,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="255">
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding />
         </state>
       </provider>
