@@ -1,32 +1,44 @@
 // Require mongoose
 const mongoose = require("mongoose");
+
 // Create Schema class
 const Schema = mongoose.Schema;
 
 // Create article schema
 const ArticleSchema = new Schema({
+
+  // `title` (Title of the stored article from nytimes.com)
   title: {
     type: String,
-    required: true
+    required: true,
+      unique: true
   },
+  author: {
+    type: String,
+    required: true,
+      unique: true
+  },
+
+  // `date` (publish date and time of the article)
   date: {
     type:Date,
-    default:Date.now
+    default:Date.now,
+      unique: true
   },
-  link: {
+
+  // url is a required string
+  url: {
     type: String,
-    required: true
+    required: true,
+      unique: true
   },
   saved:{
     type:Boolean,
     default:false
+  },
+  snippet:{
+      type:String
   }
-  // This only saves one note's ObjectId, ref refers to the Note model
-    //the note key is an array so multiple notes can be added
-  // note: [{
-  //   type: Schema.Types.ObjectId,
-  //   ref: "Note"
-  // }]
 
 });
 
