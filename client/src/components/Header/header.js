@@ -20,6 +20,8 @@ class Header extends Component{
     return(
       <div className="headerSection">
         <h1>New York Times Article Scrubber!</h1>
+
+        <br/>
         <h4> Search For And Annotate Article Of Interest ! </h4>
         <button onClick={this.gotoHome}>Home</button>
         <button onClick={this.gotoSaved}>Check Saved</button>

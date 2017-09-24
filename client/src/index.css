@@ -3,7 +3,8 @@ body {
   padding: 0;
   font-family: sans-serif;
   text-align: center;
-  background-color: antiquewhite;
+  /*background-color: antiquewhite;*/
+  /*background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2017%2F06%2F15%2Finsider%2F15insider-logo-GIF%2F15insider-logo-GIF-master768-v4.gif&imgrefurl=https%3A%2F%2Fwww.nytimes.com%2F2017%2F06%2F15%2Finsider%2F1967-a-modern-identity-takes-form-in-ancient-lettering.html&docid=YpQGq4azMYLSDM&tbnid=UPPPLmzNWzmpKM%3A&vet=10ahUKEwi26JfOn73WAhXkwFQKHZjCAiEQMwhuKCkwKQ..i&w=768&h=512&safe=active&bih=776&biw=1440&q=new%20york%20times%20logo&ved=0ahUKEwi26JfOn73WAhXkwFQKHZjCAiEQMwhuKCkwKQ&iact=mrc&uact=8");*/
 }
 
 button{
