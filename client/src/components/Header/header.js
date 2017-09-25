@@ -19,12 +19,12 @@ class Header extends Component{
   render(){
     return(
       <div className="headerSection">
-        <h1>New York Times Article Scrubber!</h1>
+        <h1 className="header-title">New York Times Article Scrubber!</h1>
 
         <br/>
-        <h4> Search For And Annotate Article Of Interest ! </h4>
-        <button onClick={this.gotoHome}>Home</button>
-        <button onClick={this.gotoSaved}>Check Saved</button>
+        <h4 className="header-subtitle"> Search For And Annotate Article Of Interest ! </h4>
+        <button className="btn-header-home" onClick={this.gotoHome}>Home</button>
+        <button className="btn-header-saved" onClick={this.gotoSaved}>Check Saved</button>
       </div>
     );
   }

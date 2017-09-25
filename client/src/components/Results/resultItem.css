@@ -1,11 +1,14 @@
 .ResultItem{
-  background-color: floralwhite;
-  color: black;
+  background-color: yellow;
+  /*color: blue;*/
   margin: 10px;
+  border: 2px solid black;
 }
 
 .saveButton{
-  margin-top: 20px;
+  border: 1px solid gray;
+  box-shadow: 5px 5px 5px #888888;
+  /*margin-top: 20px;*/
 }
 
 /*.links{

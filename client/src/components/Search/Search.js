@@ -53,7 +53,7 @@ class Search extends Component{
       <div className="row">
         <div className='search'>
           <div>
-            <h2>SEARCH</h2>
+            <h2 id="searchTitle">SEARCH</h2>
             <form>
             <div>
               <p>Topic</p>
@@ -99,7 +99,7 @@ class Search extends Component{
             <div className="row">
                 <div className='results'>
                     <div>
-                        <h2 id="resultText">RESULTS</h2>
+                        <h2 id="resultTitle">RESULTS</h2>
                         {this.state.articles.map((article) => {
                             return(
                                 <ResultItem

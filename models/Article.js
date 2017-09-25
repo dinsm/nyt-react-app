@@ -11,33 +11,33 @@ const ArticleSchema = new Schema({
   title: {
     type: String,
     required: true,
-      unique: true
+    // unique: true
   },
   author: {
     type: String,
-    required: true,
-      unique: true
+    // required: true,
+    //   unique: true
   },
 
   // `date` (publish date and time of the article)
   date: {
     type:Date,
     default:Date.now,
-      unique: true
+    // unique: true
   },
 
   // url is a required string
   url: {
     type: String,
     required: true,
-      unique: true
+    // unique: true
   },
   saved:{
     type:Boolean,
     default:false
   },
   snippet:{
-      type:String
+    type:String
   }
 
 });

@@ -3,15 +3,15 @@
 }
 
 .savedThing{
-  background-color: floralwhite;
-  color:pink;
+  background-color: yellow;
+  color:darkblue;
   padding: 10px;
   border-radius: 10px;
   margin: 10px;
 }
 
 .links{
-  color:white;
+  color:orangered;
 }
 .links:hover{
   color:#4472CA;

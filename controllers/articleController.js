@@ -9,7 +9,7 @@ module.exports = {
     // res.send("I'm a saved article");
     const articleData = {
       title: req.body.headline,
-      link: req.body.url
+      url: req.body.url
     }
 
     let entry = new Article(articleData);

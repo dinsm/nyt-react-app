@@ -2,5 +2,29 @@
   /*background-color: lightgray;*/
   /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/77/The_New_York_Times_logo.png") no-repeat center center;*/
   /*padding: 10px;*/
+  /*text-decoration: underline;*/
   color:black;
+  font-family: fantasy;
+}
+
+.btn-header-home{
+  border: 1px solid lightgray;
+    /*box-shadow: 5px 5px 5px #888888;*/
+}
+
+.btn-header-saved{
+  border: 1px solid lightgray;
+}
+
+.header-title {
+  font-size: 420%;
+  text-decoration: underline;
+  font-family: fantasy;
+}
+
+.header-subtitle {
+  font-size: 200%;
+  margin-top: 0px;
+  font-family: fantasy;
+ /*Arial, Helvetica, sans-serif;*/
 }
