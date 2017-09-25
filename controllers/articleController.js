@@ -9,7 +9,7 @@ module.exports = {
     // res.send("I'm a saved article");
     const articleData = {
       title: req.body.headline,
-      url: req.body.url
+      link: req.body.url
     }
 
     let entry = new Article(articleData);
@@ -40,7 +40,7 @@ module.exports = {
     console.log(req.body);
     // res.send("Here's all the saved articles from the back end");
     Article.find({}, function(error, data) {
-      console.log(error || data)
+      console.log(error || data);
 
       if (error) {
         res.send(error);

@@ -24,7 +24,7 @@ class Header extends Component{
         <br/>
         <h4 className="header-subtitle"> Search For And Annotate Article Of Interest ! </h4>
         <button className="btn-header-home" onClick={this.gotoHome}>Home</button>
-        <button className="btn-header-saved" onClick={this.gotoSaved}>Check Saved</button>
+        <button className="btn-header-saved" onClick={this.gotoSaved}>Article(s) Saved</button>
       </div>
     );
   }

@@ -27,7 +27,7 @@ const ArticleSchema = new Schema({
   },
 
   // url is a required string
-  url: {
+  link: {
     type: String,
     required: true,
     // unique: true
