@@ -35,7 +35,7 @@ class SavedItem extends Component{
         <a className="links"
         href={this.props.url} target="_blank">{this.props.headline}
         </a></h4>
-        <p className="col-md-4">Time-stamp: <br/>{this.props.date}</p>
+        <p className="col-md-4"> Date Published <br/>{this.props.date}</p>
         <div className="col-md-4">
           <button id={this.props.buttonId}
           onClick={this.deleteSavedArticles}>REMOVE</button>
